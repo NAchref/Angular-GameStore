@@ -30,7 +30,7 @@ describe('GameDetailComponent', () => {
         id: 1,
         image: 'horizon_zero_dawn.jpg',
         name: 'Horizon Zero Dawn',
-        releaseDate: '2017-02-28',
+        releaseDate: '2021-02-28',
         platforms: [
           2
         ],

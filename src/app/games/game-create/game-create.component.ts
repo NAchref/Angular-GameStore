@@ -16,6 +16,7 @@ export class GameCreateComponent implements OnInit {
   title = 'Create new game';
   game: Game = new Game();
   platforms: Platform[] = [];
+  
 
   constructor(private router: Router,
               private platformService: PlatformsService,
@@ -37,7 +38,7 @@ export class GameCreateComponent implements OnInit {
   }
 
   /**
-   * Create a new hero
+   * Create a new game
    */
   onSaveGame() {
     this.game.platforms = this.platforms

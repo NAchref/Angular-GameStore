@@ -1,0 +1,14 @@
+body{
+  
+  background: linear-gradient(0.25turn, #9fddf8, #ebf8e1, #f0ffff);
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+	background: linear-gradient(to right, #0110e4 0%, #e6092e 100%);
+	-webkit-text-fill-color: transparent;
+
+	
+}

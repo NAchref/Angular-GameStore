@@ -8,7 +8,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 1,
           image: 'horizon_zero_dawn.jpg',
           name: 'Horizon Zero Dawn',
-          releaseDate: '2017-02-28',
+          releaseDate: '2021-02-28',
           platforms: [
             2
           ],
@@ -27,7 +27,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 2,
           image: 'destiny2.jpg',
           name: 'Destiny 2',
-          releaseDate: '2017-09-06',
+          releaseDate: '2021-09-06',
           platforms: [1, 2, 3],
           description: `Destiny 2 is an online-only multiplayer first-person shooter
                     video game developed by Bungie and published by Activision. It was released
@@ -39,7 +39,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 3,
           image: 'gran_turismo.jpg',
           name: 'Gran Turismo Sport',
-          releaseDate: '2017-10-17',
+          releaseDate: '2021-10-17',
           platforms: [1, 2, 3],
           description: `Gran Turismo Sport is the latest entry in the long-running
                     simulation racing series, and its no doubt going to be another
@@ -51,7 +51,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 4,
           image: 'resident_evil.jpg',
           name: 'Resident Evil 7: Biohazard',
-          releaseDate: '2017-01-24',
+          releaseDate: '2020-01-24',
           platforms: [1, 2, 3],
           descripion: `Resident Evil 7: Biohazard[a] is a survival horror video game developed
                    and published by Capcom. The game was released worldwide in January 2017 for Microsoft
@@ -63,7 +63,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 5,
           image: 'call_of_dutty.jpg',
           name: 'Call of Duty: WWII',
-          releaseDate: '2017-11-03',
+          releaseDate: '2021-11-03',
           platforms: [1, 2, 3],
           description: `Call of Duty: WWII is a first-person shooter video game developed by
                    Sledgehammer Games and published by Activision. It is the fourteenth main installment in
@@ -78,7 +78,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 6,
           image: 'uncharted.jpg',
           name: 'Uncharted: The Lost Legacy',
-          releaseDate: '2017-08-22',
+          releaseDate: '2021-08-22',
           platforms: [2],
           description: `Uncharted: The Lost Legacy is an action-adventure game developed by Naughty Dog and
                    published by Sony Interactive Entertainment. Released in August 2017 for the PlayStation 4,
@@ -94,7 +94,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 7,
           image: 'assassins_creed_origin.jpg',
           name: `Assassins Creed: Origins`,
-          releaseDate: '2017-10-27',
+          releaseDate: '2022-10-27',
           platforms: [1, 2, 3],
           description: `Assassins Creed Origins is an action-adventure video game developed by
                    Ubisoft Montreal and published by Ubisoft. It is the tenth major installment in the
@@ -110,7 +110,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 8,
           image: 'crash.jpg',
           name: 'Crash Bandicoot N. Sane Trilogy',
-          releaseDate: '2017-06-30',
+          releaseDate: '2022-06-30',
           platforms: [2],
           description: `Crash Bandicoot N. Sane Trilogy is a platform video game compilation
                    developed by Vicarious Visions and published by Activision for PlayStation 4. It is a
@@ -124,7 +124,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 9,
           image: 'battlefrontII.jpg',
           name: 'Star Wars Battlefront II',
-          releaseDate: '2017-11-17',
+          releaseDate: '2020-11-17',
           platforms: [1, 2, 3],
           description: `Star Wars Battlefront II is an action shooter video game based on the
                    Star Wars film franchise. It is the fourth major installment of the Star Wars:
@@ -137,7 +137,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 10,
           image: 'farpoint.jpg',
           name: 'Farpoint',
-          releaseDate: '2017-05-16',
+          releaseDate: '2020-05-16',
           platforms: [2],
           description: `Farpoint is a virtual reality first-person shooter set on a hostile
                    alien world. It can be played with the PS VR Aim Controller.[1] It also features
@@ -147,7 +147,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 11,
           image: 'south_park.jpg',
           name: 'South Park: The Fractured But Whole',
-          releaseDate: '2017-10-17',
+          releaseDate: '2020-10-17',
           platforms: [1, 2, 3],
           description: `South Park: The Fractured but Whole is a 2017 role-playing video game
                    developed by Ubisoft San Francisco and published by Ubisoft in collaboration with
@@ -164,7 +164,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 12,
           image: 'drawn_to_death.jpg',
           name: 'Drawn to Death',
-          releaseDate: '2017-04-04',
+          releaseDate: '2020-04-04',
           platforms: [2],
           description: `Drawn to Death is a third-person shooter combined with a brawler
                    arena multiplayer video game for PlayStation 4, developed by David Jaffes studio
@@ -177,7 +177,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 13,
           image: 'ark_survival_evolved.jpg',
           name: 'Ark: Survival Evolved',
-          releaseDate: '2017-08-29',
+          releaseDate: '2021-08-29',
           platforms: [1, 2, 3],
           description: `Ark: Survival Evolved (stylized as ΛRK) is an action-adventure
                    survival video game developed by Studio Wildcard in collaboration with Instinct
@@ -190,7 +190,7 @@ export class AppInMemoryApi implements InMemoryDbService {
           id: 14,
           image: 'WolfensteinII.jpg',
           name: 'Wolfenstein II: The New Colossus',
-          releaseDate: '2017-10-27',
+          releaseDate: '2020-10-27',
           platforms: [1, 2, 3],
           description: `Wolfenstein II: The New Colossus is an action-adventure
                    first-person shooter video game developed by MachineGames and published

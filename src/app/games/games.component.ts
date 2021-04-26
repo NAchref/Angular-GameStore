@@ -27,6 +27,7 @@ export class GamesComponent implements OnInit {
     this.store.dispatch(new GetAllPlatforms());
 
     // subscriptions when success or error action
+    
     this.store.select(getGamesError).subscribe((error) => this.loadingError(error));
     this.store.select(isDeleted).subscribe((done) => {
       this.actionSuccess(done, 'The game was deleted successfully!!!');

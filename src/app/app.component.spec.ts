@@ -35,15 +35,15 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'NgRx Games CRUD Demo'`, async(() => {
+  it(`should have as title 'Admin Panel Game store!'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('NgRx Games CRUD Demo');
+    expect(app.title).toEqual('Admin Panel Game store!');
   }));
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to NgRx Games CRUD Demo!');
+    expect(compiled.querySelector('h1').textContent).toContain(' Admin Panel Game store!');
   }));
 });

@@ -15,7 +15,7 @@ import {getAllPlatforms} from '../store/platforms.reducers';
   styleUrls: ['./game-list.component.css']
 })
 export class GameListComponent implements OnInit {
-  title = 'List of Games';
+  title = 'LISTE OF GAMES';
   games: Observable<Game[]>;
   platforms: Observable<Platform[]>;
 
@@ -24,7 +24,7 @@ export class GameListComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('... initializing Hero list component.');
+    console.log('... initializing games list component.');
 
     this.platforms = this.store.select(getAllPlatforms);
     this.games = this.store.select(getAllGames);

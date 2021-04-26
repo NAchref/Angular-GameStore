@@ -1,8 +1,9 @@
+<body>
 <div *ngIf="game">
   <h2>{{title}}</h2>
 
   <div>
-    <div class="row">
+    <div class="row row-input">
       <div class="col-sm-3">
         <img *ngIf="game.image" src="assets/images/{{game.image}}" alt="{{game.name}}" width="300px" height="450px"/>
         <img *ngIf="!game.image" src="assets/images/not-available.png" width="130px" height="100px"/>
@@ -21,7 +22,7 @@
               />
             </div>
           </div>
-          <div class="row">
+          <div class="row row-input">
             <label class="control-label col-sm-3" for="txtName">Platforms:</label>
             <div class="col-sm-5">
               <div *ngFor="let p of platforms; let i=index">
@@ -30,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row row-input">
             <label class="control-label col-sm-3" for="txtDate">Released:</label>
             <div class="col-sm-5">
               <input id="txtDate"
@@ -42,7 +43,7 @@
               />
             </div>
           </div>
-          <div class="row">
+          <div class="row row-input">
             <label class="control-label col-sm-3" for="txtDate">Description:</label>
             <div class="col-sm-5">
               <textarea id="txtDesc"
@@ -73,3 +74,4 @@
     </div>
   </div>
 </div>
+</body>

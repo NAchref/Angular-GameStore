@@ -1,0 +1,8 @@
+body{
+  padding-bottom: 280px;
+  margin-bottom: 0;
+  background: linear-gradient(0.25turn, #9fddf8, #ebf8e1, #f0ffff);
+}
+.row-input{
+  padding-bottom: 50px;
+}

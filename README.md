@@ -21,7 +21,7 @@ Search component provided using RxJs.
 
 Get the Code :
 
-git clone https://github.com/yduartep/angular-full-sample.git
+git clone https://github.com/NAchref/Angular-GameStore.git
 cd angular-full-sample
 npm i
 

@@ -22,7 +22,7 @@ Search component provided using RxJs.
 Get the Code :
 
 git clone https://github.com/NAchref/Angular-GameStore.git
-cd angular-full-sample
+cd Angular-GameStore
 npm i
 
 
